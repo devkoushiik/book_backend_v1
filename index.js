@@ -18,7 +18,7 @@ app.use(
   })
 );
 
-app.get(`http:localhost:${PORT}`, (req, res) => {
+app.get(`/`, (req, res) => {
   return res.status(234).send("This is Book Store App");
 });
 
